@@ -33,7 +33,7 @@
 			table=$('#table').dataTable({
 				// <-- your array of objects
 		     "ajax": {
-            "url": "<%=request.getContextPath()%>/images/sf_movie_dataTable.json",
+            "url": "/sf_movie_dataTable.json",
             "type": "GET"
         },
 		      
