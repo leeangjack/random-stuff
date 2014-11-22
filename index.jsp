@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Test</title>
-  <link rel="stylesheet" href="<%=request.getContextPath()%>/css/tmx.css" />
-   <link rel="stylesheet" href="<%=request.getContextPath()%>/images/main.css" type="text/css">
+  <link rel="stylesheet" href="/tmx.css" />
+   <link rel="stylesheet" href="/main.css" type="text/css">
    
   <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/colvis/1.1.1/css/dataTables.colVis.css" />
-  <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/jquery.dataTables.yadcf.css" />
+  <link rel="stylesheet" type="text/css" href="/jquery.dataTables.yadcf.css" />
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
@@ -18,9 +18,9 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
 	<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
  
-  <script src="<%=request.getContextPath()%>/images/main.js"></script>
+  <script src="/main.js"></script>
   <script type='text/javascript' src="http://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery.dataTables.yadcf.js"></script> 
+	<script type="text/javascript" src="/jquery.dataTables.yadcf.js"></script> 
 	<script type="text/javascript" src="//cdn.datatables.net/colvis/1.1.1/js/dataTables.colVis.min.js"></script>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.11/jquery.scrollTo.min.js"></script>
 	
