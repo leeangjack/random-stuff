@@ -108,7 +108,7 @@ $(document).ready( function() {
 	 * Downloaded sf_movie_data.json from sfgov to host it locally
 	 * https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD
 	*/
-	$.get('./images/sf_movie_data.json', function(response) {
+	$.get('./sf_movie_data.json', function(response) {
     sf_movie_data = response.data;
 		var movies = [];
 		$(sf_movie_data).each( function(i,data){
