@@ -1,0 +1,426 @@
+/* Page wide CSS props */
+table {
+	font-size: 11px;
+}
+
+body {
+	font-family: Arial, Helvetica, Sans-serif;
+	/*background: -webkit-gradient(linear, 0 20%, 0 49%, from(white),
+		to(#BDDAF1));
+	background: -moz-linear-gradient(top, #ffffff, #bddaf1); */
+	/* for IE */
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+#content-wrapper {
+	margin: 0px auto;
+	width: 1000px;
+	text-align: left;
+	background-color: #ffffff;
+	float:left;
+	margin-left: 150px;
+}
+
+a {
+	text-decoration: none;
+	border:0;
+    outline:none;
+}
+
+a img {
+    border:0;
+    outline:none;
+}
+
+#table thead th {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 12px;
+}
+
+/* Header CSS */
+#header {
+	background-color: #ffffff;
+	margin: 0px;
+	width: 1000px;
+	height: 40px;
+	text-align: right;
+}
+
+.project-div {
+	float: left;
+}
+
+.project-logo {
+	height: 37px;
+	width: 250px;
+	padding-left: 18px;
+}
+
+#beta-logo {
+	float: right;
+	height: 45px;
+	width: 90px;
+	padding-right: 20px;
+	
+}
+
+#menu {
+	clear: both;
+	margin: 0px;
+	margin-left: -170px;
+	width: 2400px;
+	height: 28px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+	background-color: #bdcad5;
+	background: #bdcad5;
+	background: -moz-linear-gradient(top, #ffffff 0%, #bdcad5 100%);
+	background:	-webkit-gradient(linear, left top,left bottom, color-stop(0%,#ffffff), color-stop(100%,#bdcad5));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #bdcad5 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #bdcad5 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #bdcad5 100%);
+	background: linear-gradient(top, #ffffff 0%, #bdcad5 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #bdcad5 100%);
+}
+
+#menu ul {
+	margin-left: 180px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 28px;
+	width: 980px;
+	float: left;
+	/*list-style-type: none;*/
+	list-style-type: none;
+}
+
+
+#menu li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+	text-decoration: none;
+	/*background: url(https://www.db.com/en/img/trennung_navi.gif) no-repeat
+		left 0px;*/
+}
+
+#menu li.first {
+	margin: 0px;
+	padding: 0;
+	height: 28px;
+	background: none; 
+}
+
+
+
+
+#menu a {
+	display: block;
+	font-size: 13px;
+	line-height: 28px;
+	padding: 0 1em;
+	text-decoration: none;
+	color: black;
+}
+
+#menu  a:hover {
+	background-color: white;
+	color: #0098db;
+	/*height: 28px;*/
+}
+
+
+
+#currentPage{
+	/*line-height: 28px;*/
+	color: #0098db;
+	background-color: white;
+	/*background-image: url(../images/menu_button_select_left.gif),
+			url(../images/menu_button_select_right.gif);
+	background-position: left top, right top;
+	background-height: 28px;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;*/
+}
+
+
+
+
+#content form {
+	float: left;
+	width: 100%;
+}
+
+#content {
+	clear: both;
+	float: left;
+	min-height: 750px;
+	width: 1000px;
+	margin-top: 10px;
+	background-color: #ffffff;
+	text-align: left;
+	min-height: 750px;
+}
+
+#content table {
+	
+	width: 90%;
+	margin: 10px 20px;
+	font-size: 15px;
+	float: inherit;
+}
+
+#content td,th {
+	text-align: center;
+	
+	padding: 7px;
+}
+
+#submitButtons {
+	float: left;
+	width: 100%;
+	margin: 10px;
+}
+
+#submitButtons input {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#resyncForm input {
+	float: right;
+	margin-right: 40px;
+}
+
+#entryFields {
+	float: left;
+	margin-right: 40px;
+	width: 40%;
+}
+
+#entryFields input,label {
+	margin-bottom: 10px;
+	display: inline-block
+}
+
+#entryFields label {
+	width: 120px;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	height: 750px;
+	padding: 0px;
+	margin-left: 20px;
+}
+
+#sidebar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#sidebar li {
+	margin: 0px;
+	padding: 5px;
+	
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+
+#sidebar a:hover {
+	color: #0098db;
+}
+
+#sidebar a {
+	color: #000000;
+}
+
+#right-column {
+	float: left;
+	width: 750px;
+	background-color: white;
+	padding: 0px;
+	margin-left: 20px;
+}
+
+#right-column h3 {
+	margin-top: 5px;
+	font-size: 18px;
+	color: #262f91;
+	
+}
+
+#right-column table {
+	
+	font-size: 12px;
+	width: 95%;
+	float: left;
+}
+
+#right-column #dateTable {
+	
+	font-size: 16px;
+	margin-left: 30px;
+	width: 50%;
+	float: left;
+}
+
+#right-column #dailyStatsTable #headerRow td {
+	text-align: left;
+	padding: 6px;
+	background-color: #e0f2f7
+}
+
+#right-column th {
+	text-align: left;
+	padding: 6px;
+	background-color: #e0f2f7
+}
+
+#right-column td {
+	text-align: left;
+	
+}
+
+#submitForm {
+	display:none;
+}
+
+#loadImg {
+	height: 18px;
+	width: 18px;
+}
+
+
+
+
+td.accountLink{
+	
+	cursor: pointer;
+	color: blue; 
+}
+
+
+
+
+td.accountLink:hover {
+	cursor: pointer;
+	color: blue; 
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.error {
+	width: 100%;
+	text-align: left;
+	float: left;
+	font-size: 14px;
+	padding: 5px;
+	margin: 5px;
+	color: red;
+}
+
+.success {
+	width: 100%;
+	text-align: left;
+	float: left;
+	font-size: 14px;
+	padding: 5px;
+	margin: 5px;
+	color: green;
+}
+
+.hidden {
+	display: none;
+}
+
+.button {
+	padding: 2px 5px 2px 5px;
+	
+	color: #000;
+	text-decoration: none;
+	background: #dcdcdc url(icon.png) no-repeat scroll 5px center;
+	color: #000;
+}
+
+.button:HOVER {
+	background: gray;
+}
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header {
+	margin-bottom: 8px;
+}
+
+.ui-timepicker-div dl {
+	text-align: left;
+}
+
+.ui-timepicker-div dl dt {
+	float: left;
+	clear: left;
+	padding: 0 0 0 5px;
+}
+
+.ui-timepicker-div dl dd {
+	margin: 0 10px 10px 45%;
+}
+
+.ui-timepicker-div td {
+	font-size: 90%;
+}
+
+.ui-tpicker-grid-label {
+	background: none;
+	
+	margin: 0;
+	padding: 0;
+}
+
+.ui-timepicker-rtl {
+	direction: rtl;
+}
+
+.ui-timepicker-rtl dl {
+	text-align: right;
+	padding: 0 5px 0 0;
+}
+
+.ui-timepicker-rtl dl dt {
+	float: right;
+	clear: right;
+}
+
+.ui-timepicker-rtl dl dd {
+	margin: 0 45% 10px 10px;
+}
+
+.email {
+	float: right;
+	margin-right: 20px;
+}
+
+.operationsColumn {
+	width:30px;
+}
+
+.userAdminFooter {
+	background-color: #e0f2f7;
+}
