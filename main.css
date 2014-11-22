@@ -1,0 +1,82 @@
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+body {
+  
+  height: 100%;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+header h1 {
+  font-size: 14pt;
+}
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 10px 0 5px 0;
+  font-size: 12pt;
+}
+
+h4 {
+  font-size: 10pt;
+  margin: 0 0 5px 0;
+}
+
+#container {
+  width: 810px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#locations li {
+  cursor: default;
+  list-style: none;
+  padding: 5px;
+}
+
+#locations li:hover {
+  background: #FFFFFF;
+}
+
+
+
+#map-canvas {
+  position: relative;
+  margin-left: 220px;
+  height: 500px;
+  width: 600px;
+  border: 1px solid #000;
+  overflow: visible !important;
+}
+
+#movie-list {
+  color: #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  width: 200px;
+  float: left;
+  font-size: 10pt;
+}
+
+.ui-autocomplete li {
+  font-size: 10pt;
+}
